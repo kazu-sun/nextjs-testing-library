@@ -28,7 +28,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                   data-testid='blog-nav'
                   className='text-gray-300 hover:bg-gray-700 px-3 py-2 rounded'
                 >
-                  Home
+                  Blog
                 </a>
               </Link>
               <Link href='/comment-page'>
@@ -36,7 +36,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                   data-testid='comment-nav'
                   className='text-gray-300 hover:bg-gray-700 px-3 py-2 rounded'
                 >
-                  Home
+                  Comment
                 </a>
               </Link>
               <Link href='/context-page'>
@@ -44,7 +44,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                   data-testid='context-nav'
                   className='text-gray-300 hover:bg-gray-700 px-3 py-2 rounded'
                 >
-                  Home
+                  Context
                 </a>
               </Link>
               <Link href='/task-page'>
@@ -52,7 +52,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                   data-testid='task-nav'
                   className='text-gray-300 hover:bg-gray-700 px-3 py-2 rounded'
                 >
-                  Home
+                  Task
                 </a>
               </Link>
             </div>
