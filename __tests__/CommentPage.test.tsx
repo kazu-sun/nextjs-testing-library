@@ -4,7 +4,6 @@ import { SWRConfig } from 'swr';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import CommentPage from '../pages/comment-page';
-import { cache } from 'swr/dist/utils/config';
 
 const server = setupServer(
   rest.get(
