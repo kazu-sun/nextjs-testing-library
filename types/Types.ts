@@ -13,7 +13,7 @@ export interface COMMENT {
   body: string;
 }
 
-export interface TODO {
+export interface TASK {
   userId: number;
   id: number;
   title: string;
